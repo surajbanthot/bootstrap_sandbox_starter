@@ -1,18 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
-</head>
-
+  </head>
+ 
 <body>
     <header>
         <h1 class="display-3 text-center my-4">Buttons & Button Groups</h1>
@@ -90,11 +88,11 @@
         <!--################START HERE################-->
 
         <!-- BUTTONS -->
-        <button type="button">Primary</button>
-        <button type="button">Secondary</button>
-        <button type="button">Success</button>
-        <button type="button">Info</button>
-        <button type="button">Warning</button>
+        <button class="btn btn-primary" type="button">Primary</button>
+        <button class="btn btn-secondary" type="button">Secondary</button>
+        <button class="btn btn-warning" type="button">Success</button>
+        <button class="btn btn-danger" type="button">Info</button>
+        <button  class="btn btn-success" type="button">Warning</button>
         <button type="button">Danger</button>
         <button type="button">Light</button>
         <button type="button">Dark</button>
@@ -104,21 +102,21 @@
         <br>
 
         <!-- BUTTON TAGS/TYPES -->
-        <a href="#" role="button">Link</a>
-        <button type="submit">Button</button>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button  class="btn btn-success" type="submit">Button</button>
         <input type="button" value="Input">
-        <input type="submit" value="Submit">
+        <input class="btn btn-warning" type="submit" value="Submit">
         <input type="reset" value="Reset">
 
         <br>
         <br>
 
         <!-- OUTLINE BUTTONS -->
-        <button type="button">Primary Outline</button>
-        <button type="button">Secondary Outline</button>
-        <button type="button">Success Outline</button>
-        <button type="button">Info Outline</button>
-        <button type="button">Warning Outline</button>
+        <button class="btn btn-outline-primary" type="button">Primary Outline</button>
+        <button class="btn btn-outline-secondary" type="button">Secondary Outline</button>
+        <button class="btn btn-outline-success" type="button">Success Outline</button>
+        <button class="btn btn-outline-danger" type="button">Info Outline</button>
+        <button  class="btn btn-outline-dark" type="button">Warning Outline</button>
         <button type="button">Danger Outline</button>
         <button type="button">Light Outline</button>
         <button type="button">Dark Outline</button>
@@ -127,8 +125,8 @@
         <br>
 
         <!-- BUTTON SIZES -->
-        <button type="button">
-            <i class="fa fa-user"></i> Large button</button>
+        <button  class="btn btn-primary" type="button">
+            <i class="fas fa-user"></i> Large button</button>
         <button type="button">Small button</button>
         <br>
         <br>
@@ -222,13 +220,10 @@
     </div>
     <!-- ./container -->
     <div style="margin-top:500px;"></div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
