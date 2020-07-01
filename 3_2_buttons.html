@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3fb12ca378.js" crossorigin="anonymous"></script>
 
     <title>Bootstrap Sandbox</title>
   </head>
@@ -127,20 +128,20 @@
         <!-- BUTTON SIZES -->
         <button  class="btn btn-primary" type="button">
             <i class="fas fa-user"></i> Large button</button>
-        <button type="button">Small button</button>
+        <button class="btn btn-success btn-sm" type="button">Small button</button>
         <br>
         <br>
-        <button type="button">Block level button</button>
+        <button  class="btn btn-dark btn-block" type="button">Block level button</button>
 
         <br>
         <br>
 
         <!-- STATES -->
-        <button type="button">Regular Button</button>
-        <button type="button">Active Button</button>
-        <button type="button">Disabled Button</button>
+        <button class="btn btn-primary" type="button">Regular Button</button>
+        <button class="btn btn-primary active" type="button">Active Button</button>
+        <button class="btn btn-secondary disabled" type="button">Disabled Button</button>
 
-        <button type="button">
+        <button class="btn btn-warning" type="button" data-toggle="button">
             Toggle State
         </button>
 
@@ -148,28 +149,28 @@
         <br>
 
         <!-- BUTTON GROUPS -->
-        <div>
-            <button type="button">Left</button>
-            <button type="button">Middle</button>
-            <button type="button">Right</button>
+        <div class="btn-group">
+            <button class="btn btn-primary" type="button">Left</button>
+            <button class="btn btn-secondary" type="button">Middle</button>
+            <button class="btn btn-danger" type="button">Right</button>
         </div>
 
         <br></br>
 
         <!-- BUTTON TOOLBAR -->
-        <div>
-            <div>
-                <button type="button">1</button>
+        <div class="btn-toolbar">
+            <div class="btn-group mr-2">
+                <button class="btn btn-primary" type="button">1</button>
                 <button type="button">2</button>
                 <button type="button">3</button>
                 <button type="button">4</button>
             </div>
-            <div>
-                <button type="button">5</button>
+            <div class="btn-group mr-2">
+                <button  class="btn btn-secondary" type="button">5</button>
                 <button type="button">6</button>
                 <button type="button">7</button>
             </div>
-            <div>
+            <div class="btn-group">
                 <button type="button">8</button>
             </div>
         </div>
@@ -178,23 +179,23 @@
         <br>
 
         <!-- VERTICAL GROUP -->
-        <div>
-            <button type="button">Left</button>
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary" type="button">top</button>
             <button type="button">Middle</button>
-            <button type="button">Right</button>
+            <button class="btn btn-success" type="button">bottom</button>
         </div>
 
         <br>
         <br>
 
         <!-- BUTTON DROPDOWNS -->
-        <div>
-            <button type="button">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                 My Dropdown
             </button>
-            <div>
-                <a href="#">Link One</a>
-                <a href="#">Link Two</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
                 <a href="#">Link Three</a>
             </div>
         </div>
@@ -203,16 +204,16 @@
         <br>
 
         <!-- SPLIT DROPDOWNS -->
-        <div>
-            <button type="button">My Button</button>
-            <button type="button">
+        <div class="btn-group">
+            <button class="btn btn-primary" type="button">My Button</button>
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
                 <span>Toggle Dropdown</span>
             </button>
-            <div>
-                <a href="#">Link One</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
                 <a href="#">Link Two</a>
                 <a href="#">Link Three</a>
-                <div></div>
+                <div class="dropdown-divider"></div>
                 <a href="#">Link Four</a>
             </div>
         </div>
