@@ -88,8 +88,8 @@
     <!--###################START HERE######################-->
 
     <!-- TOOLTIPS -->
-    <button class="btn btn-primary">Tooltip On Top</button>
-    <button class="btn btn-success">Tooltip On Right</button>
+    <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="tooltiop on the top">Tooltip On Top</button>
+    <button class="btn btn-success" data-toggle="tooltip" data-placement="right" title="tooltip on bottom">Tooltip On Right</button>
     <button class="btn btn-warning">Tooltip On Bottom</button>
     <button class="btn btn-danger">Tooltip On Left</button>
 
@@ -125,7 +125,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
   <script>
-
+    // init
+$('[data-toggle="tooltip"]').tooltip();
   </script>
 </body>
 
